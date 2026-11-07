@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Catalogue/">
+    <Project Path="src/Services/Catalogue/BookShop.Catalogue.Application/BookShop.Catalogue.Application.csproj" />
+    <Project Path="src/Services/Catalogue/BookShop.Catalogue.Domain/BookShop.Catalogue.Domain.csproj" />
+    <Project Path="src/Services/Catalogue/BookShop.Catalogue.Presentation/BookShop.Catalogue.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Fulfilment/">
+    <Project Path="src/Services/Fulfilment/BookShop.Fulfilment.Application/BookShop.Fulfilment.Application.csproj" />
+    <Project Path="src/Services/Fulfilment/BookShop.Fulfilment.Domain/BookShop.Fulfilment.Domain.csproj" />
+    <Project Path="src/Services/Fulfilment/BookShop.Fulfilment.Presentation/BookShop.Fulfilment.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Orders/">
+    <Project Path="src/Services/Orders/BookShop.Orders.Application/BookShop.Orders.Application.csproj" />
+    <Project Path="src/Services/Orders/BookShop.Orders.Domain/BookShop.Orders.Domain.csproj" />
+    <Project Path="src/Services/Orders/BookShop.Orders.Presentation/BookShop.Orders.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/Orders/">
+    <Project Path="tests/Orders/BookShop.Orders.Application.Tests/BookShop.Orders.Application.Tests.csproj" />
+    <Project Path="tests/Orders/BookShop.Orders.Domain.Tests/BookShop.Orders.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
