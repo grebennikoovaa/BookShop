@@ -31,6 +31,10 @@ public sealed class Order : AggregateRoot
         CreatedAt = createdAt;
     }
 
+    private Order()
+    {
+    }
+
     public static Order PlaceOrder(
         Guid customerId,
         IEnumerable<(Guid ProductId, int Quantity, decimal UnitPrice)> items,

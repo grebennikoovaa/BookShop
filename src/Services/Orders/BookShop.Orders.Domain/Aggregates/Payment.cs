@@ -29,6 +29,10 @@ public sealed class Payment : AggregateRoot
         RetryDeadline = initiatedAt.AddMinutes(RetryWindowMinutes);
     }
 
+    private Payment()
+    {
+    }
+
     public static Payment InitiatePayment(
         Guid orderId,
         decimal amount,

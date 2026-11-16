@@ -28,4 +28,8 @@ public sealed class OrderLine
         Quantity = quantity;
         UnitPrice = unitPrice;
     }
+
+    private OrderLine()
+    {
+    }
 }
