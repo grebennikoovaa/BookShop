@@ -14,6 +14,7 @@
   <Folder Name="/src/Services/Orders/">
     <Project Path="src/Services/Orders/BookShop.Orders.Application/BookShop.Orders.Application.csproj" />
     <Project Path="src/Services/Orders/BookShop.Orders.Domain/BookShop.Orders.Domain.csproj" />
+    <Project Path="src/Services/Orders/BookShop.Orders.Infrastructure/BookShop.Orders.Infrastructure.csproj" />
     <Project Path="src/Services/Orders/BookShop.Orders.Presentation/BookShop.Orders.Presentation.csproj" />
   </Folder>
   <Folder Name="/tests/" />
